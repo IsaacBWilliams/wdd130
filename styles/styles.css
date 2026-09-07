@@ -2,13 +2,13 @@ main {
     max-width: 840px;
 }
 
-main img {
+/* main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 0;
     box-shadow: 0 0 5px black;
-}
+} */
 
 nav {
     background-color: darkblue;
@@ -25,7 +25,7 @@ h1 {
     color: darkblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
