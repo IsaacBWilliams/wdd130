@@ -4,6 +4,12 @@
     --dark-blue: rgb(0 0 139);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 main {
     max-width: 840px;
 }
@@ -29,6 +35,8 @@ main img {
     border: var(--basic-border);
     padding: 2px;
     box-shadow: 0 0 30px grey;
+    float: right;
+    margin: -1rem 0 1rem 1rem;
 }
 
 p {
@@ -37,12 +45,8 @@ p {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: var(--basic-border);
-    padding: 1rem;
-    background-color: #d4ffdc;
-    color: #222;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -50,8 +54,24 @@ aside img {
     height: auto;
 }
 
+aside h2 {
+    position: absolute;
+    top: 20px;
+    left: 130px;
+}
+
 footer {
     margin-top: 15px;
     border-top: var(--basic-border);
     text-align: center;
+}
+
+/* class selector */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
 }
