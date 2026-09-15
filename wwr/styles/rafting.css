@@ -1,13 +1,11 @@
 :root {
-    --primary-color: #e9bf6a;
+    --primary-color: #ffb339;
     /* forest green */
-    --secondary-color: #ff8800c6;
+    --secondary-color: #f4a261;
     /* warm sand */
-    --accent1-color: #4a2e00;
-    /*264653*/
+    --accent1-color: #264653;
     /* dark slate blue */
-    --accent2-color: #1e1400;
-    /*e9c46a*/
+    --accent2-color: #000000c0;
     /* light golden yellow */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -21,7 +19,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 
 header,
@@ -34,7 +32,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: black;
+    color: var(--accent2-color);
     background-color: var(--primary-color);
     text-align: center;
     padding: 1rem;
@@ -46,6 +44,7 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+    color: var(--accent1-color);
 }
 
 footer {
@@ -88,7 +87,7 @@ footer {
     bottom: 4%;
     right: 4%;
     color: black;
-    background-color: Var(--secondary-color);
+    background-color: var(--secondary-color);
     width: 90%;
     height: 6rem;
 }
