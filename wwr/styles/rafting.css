@@ -71,7 +71,7 @@ h1 {
     /* white text – make sure there is enough contrast with the background-color */
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: 4%;
     right: 4%;
