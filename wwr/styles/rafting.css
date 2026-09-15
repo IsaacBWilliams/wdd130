@@ -1,12 +1,12 @@
 :root {
-    --primary-color: #00ba82;
+    --primary-color: #3927ddad;
     /* forest green */
     --secondary-color: #f4a261;
     /* warm sand */
-    --accent1-color: #00b7ff;
+    --accent1-color: #4a2e00;
     /*264653*/
     /* dark slate blue */
-    --accent2-color: #e9e36a;
+    --accent2-color: #e9bf6a;
     /*e9c46a*/
     /* light golden yellow */
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -34,7 +34,10 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: black;
+    background-color: var(--accent2-color);
+    text-align: center;
+    padding: 1rem;
 }
 
 nav,
@@ -45,8 +48,17 @@ article {
     padding: 8px;
 }
 
+footer {
+    border-top: 1px solid rgba(0, 6, 51, 0.429);
+}
+
 .socialmedia a {
     text-decoration: none;
+}
+
+.socialmedia img {
+    width: 3rem;
+    margin-top: -1rem
 }
 
 .hero {
@@ -63,11 +75,11 @@ article {
     position: absolute;
     top: 20px;
     width: 100%;
-    padding: 16px;
+    padding: 5px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #003702;
+    background-color: var(--secondary-color);
+    color: #341f00;
 }
 
 /* Removed the accidental leading space before the selector */
@@ -76,17 +88,14 @@ article {
     bottom: 4%;
     right: 4%;
     color: black;
-    background-color: #00b7ff7c;
+    background-color: #ff88007c;
     width: 90%;
     height: 6rem;
 }
 
 .hero article img {
-    /* position: absolute; */
     float: right;
-    top: 10%;
-    right: 1rem;
-    height: 80%;
+    height: 100%;
     width: auto;
 }
 
