@@ -73,6 +73,7 @@ article {
 /* Removed the accidental leading space before the selector */
 .hero article {
     position: absolute;
+    float: right;
     bottom: 4%;
     right: 4%;
     color: black;
