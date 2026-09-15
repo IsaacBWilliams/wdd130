@@ -1,12 +1,12 @@
 :root {
-    --primary-color: #3927ddad;
+    --primary-color: #e9bf6a;
     /* forest green */
-    --secondary-color: #f4a261;
+    --secondary-color: #ff8800c6;
     /* warm sand */
     --accent1-color: #4a2e00;
     /*264653*/
     /* dark slate blue */
-    --accent2-color: #e9bf6a;
+    --accent2-color: #1e1400;
     /*e9c46a*/
     /* light golden yellow */
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -35,7 +35,7 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: black;
-    background-color: var(--accent2-color);
+    background-color: var(--primary-color);
     text-align: center;
     padding: 1rem;
 }
@@ -79,7 +79,7 @@ footer {
     text-align: center;
     opacity: 0.7;
     background-color: var(--secondary-color);
-    color: #341f00;
+    color: var(--accent2-color);
 }
 
 /* Removed the accidental leading space before the selector */
@@ -88,7 +88,7 @@ footer {
     bottom: 4%;
     right: 4%;
     color: black;
-    background-color: #ff88007c;
+    background-color: Var(--secondary-color);
     width: 90%;
     height: 6rem;
 }
