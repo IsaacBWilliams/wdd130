@@ -1,11 +1,11 @@
 :root {
     --primary-color: #ffb339;
     /* forest green */
-    --secondary-color: #f4a261;
+    --secondary-color: #ff7300;
     /* warm sand */
-    --accent1-color: #264653;
+    --accent1-color: #102933;
     /* dark slate blue */
-    --accent2-color: #000000c0;
+    --accent2-color: rgb(0, 8, 44);
     /* light golden yellow */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -76,7 +76,7 @@ footer {
     width: 100%;
     padding: 5px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 1;
     background-color: var(--secondary-color);
     color: var(--accent2-color);
 }
