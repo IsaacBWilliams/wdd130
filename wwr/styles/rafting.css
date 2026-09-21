@@ -104,3 +104,56 @@ footer {
     margin-bottom: 30rem;
     margin-right: 8rem;
 }
+
+header {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+}
+
+header img {
+    margin: 0px 20px;
+    grid-column: 1;
+
+}
+
+header nav {
+    grid-column: 2;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    gap: 50px;
+    list-style: none;
+}
+
+header nav a {
+    text-decoration: none;
+    color: rgb(164, 79, 0);
+    font-size: larger;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-rows: auto 1fr;
+}
+
+.adventure h2 {
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+.adventure figure {
+    grid-row: 2;
+    margin: 10px;
+    text-align: center;
+}
+
+.adventure figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
