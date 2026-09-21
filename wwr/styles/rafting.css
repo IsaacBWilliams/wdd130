@@ -113,7 +113,7 @@ header {
 }
 
 header img {
-    margin: 0 20px 0 65px;
+    margin: 5px 20px 5px 65px;
     grid-column: 1;
     width: 100px;
     height: auto;
