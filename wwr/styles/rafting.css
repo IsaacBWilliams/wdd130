@@ -109,12 +109,14 @@ header {
     display: grid;
     grid-template-columns: 30% 70%;
     align-items: center;
+    background-color: var(--primary-color);
 }
 
 header img {
-    margin: 0px 20px;
+    margin: 0 20px 0 65px;
     grid-column: 1;
-
+    width: 100px;
+    height: auto;
 }
 
 header nav {
@@ -131,7 +133,7 @@ header nav ul {
 
 header nav a {
     text-decoration: none;
-    color: rgb(164, 79, 0);
+    color: var(--accent2-color);
     font-size: larger;
 }
 
