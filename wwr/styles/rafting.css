@@ -48,7 +48,14 @@ article {
 }
 
 footer {
+    display: flex;
     border-top: 1px solid rgba(0, 6, 51, 0.429);
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+footer p {
+    margin-right: 100px;
 }
 
 .socialmedia a {
@@ -158,4 +165,35 @@ header nav a {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 20% 80%;
+}
+
+.history h2 {
+    grid-row: 1;
+    grid-column: 1/4;
+}
+
+.history-text-1 {
+    grid-row: 2;
+    grid-column: 1;
+    margin: 20px 20px 0 20px;
+}
+
+.history-text-2 {
+    grid-row: 2;
+    grid-column: 3;
+    margin: 20px 20px 0 -20px;
+}
+
+.history img {
+    grid-row: 2;
+    grid-column: 2;
+    width: 200px;
+    height: auto;
+    margin: 50px 0px;
 }
