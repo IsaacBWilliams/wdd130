@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/table.css">
+    <title>Table Test</title>
+</head>
+
+<body>
+
+    <!--The table -->
+    <table>
+
+        <!--The Head-->
+        <thead>
+            <tr>
+                <th>League</th>
+                <th>Team</th>
+                <th>Record</th>
+                <th>Player Count</th>
+            </tr>
+        </thead>
+
+        <!--The Body-->
+        <tbody>
+
+            <!--Row 1-->
+            <tr>
+                <td rowspan="2"><b>Southern</b></td>
+                <td>Parana</td>
+                <td>52-19</td>
+                <td>23</td>
+            </tr>
+            <!--Row 2-->
+            <tr class="second-row">
+                <td>Catarina</td>
+                <td>49-24</td>
+                <td>10</td>
+            </tr>
+            <!--Row 3-->
+            <tr>
+                <td rowspan="3"><b>Western</b></td>
+                <td>Lacerda</td>
+                <td>92-70</td>
+                <td>27</td>
+            </tr>
+            <!--Row 4-->
+            <tr class="second-row">
+                <td>Acre</td>
+                <td>75-87</td>
+                <td>20</td>
+            </tr>
+            <!--Row 5-->
+            <tr>
+                <td>Rondonia</td>
+                <td>10-7</td>
+                <td>12</td>
+            </tr>
+
+        </tbody>
+
+        <!--The Foot-->
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Players</td>
+                <td>92</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+
+</html>

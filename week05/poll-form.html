@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <title>Poll Form</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>WDD 130 | HTML Form - User Poll</h1>
+    </header>
+    <main>
+
+        <!-- The Form -->
+        <form>
+
+            <fieldset>
+
+                <legend>Contact Information</legend>
+
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Questions</legend>
+
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="1">Chrome</option>
+                        <option value="2">Safari</option>
+                        <option value="3">Edge</option>
+                        <option value="4">Brave</option>
+                        <option value="5">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" name="pet" id="pet">
+                </div>
+
+                <div class="form-item">
+                    <label for="feedback">List the places you have lived.</label>
+                    <textarea name="feedback" id="feedback" rows="4"
+                      placeholder="Stillwater Florida, Amsterdam Netherlands, Timbuktu Mali"></textarea>
+                </div>
+
+            </fieldset>
+
+            <button type="submit">Submit Poll</button>
+            <!-- -->
+        </form>
+    </main>
+
+    <footer>
+        <p> &copy; 2026 | HTML Form - User Poll | Isaac Williams</p>
+    </footer>
+</body>
+
+</html>
