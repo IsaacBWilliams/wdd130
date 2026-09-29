@@ -303,7 +303,7 @@ header nav a {
 /* The employees group */
 
 .serve-you-box {
-    background-color: antiquewhite;
+    background-color: var(--primary-color);
     border: 4px solid var(--accent2-color);
     margin: 2rem 0rem;
     display: grid;
@@ -314,7 +314,7 @@ header nav a {
     color: var(--accent1-color);
 }
 
-.serve-you-box h3 {
+.serve-you-box h2 {
     grid-column: span 3;
     grid-row: 1;
     display: flex;
