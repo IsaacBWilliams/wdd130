@@ -221,7 +221,7 @@ header nav a {
     margin: 0;
 }
 
-.info-box-1 h1 {
+#contact-h1 {
     color: var(--accent2-color);
     font-size: 2.5rem;
     font-family: serif;
