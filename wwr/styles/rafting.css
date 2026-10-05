@@ -347,8 +347,8 @@ header nav a {
 .home-page-format-group {
     width: 100%;
     display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 2;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .news-letter-group {
@@ -414,14 +414,14 @@ header nav a {
     margin: .5rem;
 
     display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: 2;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .extra-image-group {
     display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 2;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     color: var(--accent1-color);
     margin-left: 1rem;
 }
