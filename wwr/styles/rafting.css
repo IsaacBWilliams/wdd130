@@ -347,8 +347,8 @@ header nav a {
 .home-page-format-group {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 53% 47%;
+    grid-template-rows: 70% 30%;
 }
 
 .news-letter-group {
@@ -415,13 +415,13 @@ header nav a {
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 10% 45% 45%;
 }
 
 .extra-image-group {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 20% 80%;
     color: var(--accent1-color);
     margin-left: 1rem;
 }
