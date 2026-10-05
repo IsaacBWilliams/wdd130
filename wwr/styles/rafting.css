@@ -494,7 +494,7 @@ header nav a {
     border-bottom: 3px solid var(--accent2-color);
 }
 
-.trips-group h4 {
+.trips-group h2 {
     background-color: var(--primary-color);
     font-size: 2rem;
     text-align: center;
